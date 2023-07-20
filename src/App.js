@@ -2,6 +2,7 @@
 
 import CodeHow from "./components/CodeHow";
 import HeaderTitle from "./components/HeaderTitle";
+import QuizApp from "./components/QuizApp";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
 
       <div className="p-5">
         <HeaderTitle />
+        <QuizApp />
         <CodeHow />
       </div>
     </div>
