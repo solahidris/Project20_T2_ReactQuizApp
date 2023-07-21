@@ -19,28 +19,3 @@ function App() {
 }
 
 export default App;
-
-// const questions = [
-//   {
-//     question: "What is the capital of France?",
-//     options: [
-//       { id: 1, text: "Paris", isCorrect: true },
-//       { id: 2, text: "London", isCorrect: false },
-//       { id: 3, text: "Madrid", isCorrect: false },
-//       { id: 4, text: "Berlin", isCorrect: false }
-//     ]
-//   },
-//   // Add more question objects here
-// ];
-
-// {question.options.map((option) => (
-//   <label key={option.id}>
-//     <input
-//       type="radio"
-//       name="answer"
-//       value={option.id}
-//       onChange={handleAnswerSelection}
-//     />
-//     {option.text}
-//   </label>
-// ))}
