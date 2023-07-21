@@ -58,7 +58,7 @@ const QuizApp = () => {
         </div>
       ) : (
         <div>
-          <div className="flex justify-center"><p className="flex bg-blue-500 text-white px-5 py-3 rounded-full">All questions answered! Your score: {correctAnswerCounter}</p></div>
+          <div className="flex justify-center"><p className="flex bg-blue-500 text-white px-5 py-3 rounded-full text-center">All questions answered! Your score: {correctAnswerCounter}</p></div>
           <div className="flex justify-center"><button onClick={handleTryAgain} className="bg-stone-500 hover:bg-stone-600 text-white text-sm px-5 py-2 mt-4 rounded-full">Try Again</button></div>
         </div>
       )}
