@@ -3,7 +3,7 @@ const HeaderTitle = () => {
     <div className="text-center">
       <div className="flex justify-center">
         <h1 class="text-3xl font-bold bg-blue-600 text-stone-100 px-[2rem] py-3 rounded-full">
-          P20 - React Quiz App
+          P20 - React Quiz
         </h1>
       </div>
       <div className="flex justify-center">
