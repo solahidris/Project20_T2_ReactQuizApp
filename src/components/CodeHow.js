@@ -1,6 +1,6 @@
 const CodeHow = () => {
   return (
-    <div className="bg-stone-100/20 p-5  rounded-lg mt-5 text-xs">
+    <div className="bg-stone-100/20 p-5 lg:mx-[30%] rounded-lg mt-5 text-xs">
       <h5 className="font-bold italic">How this was coded</h5>
       <h5>1) Figure out what components to create</h5>
       <h5>2) Google common react questions, ChatGPT for answer options</h5>

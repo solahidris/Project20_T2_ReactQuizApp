@@ -32,7 +32,7 @@ const QuizApp = () => {
   const currentQuestion = qna[currentQuestionIndex];
 
   return (
-    <div className="bg-blue-200 px-[2rem] py-[3rem] mx-5 my-[2rem] rounded-xl">
+    <div className="bg-blue-200 px-[2rem] py-[3rem] mx-5 lg:mx-[30%] my-[2rem] rounded-xl">
       {/* Render current question or final message */}
       {currentQuestionIndex !== -1 ? (
         <div key={currentQuestionIndex} className="bg-blue-300 px-[1rem] rounded-xl">
