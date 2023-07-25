@@ -1,4 +1,4 @@
-const CodeHow = () => {
+const QuizInstructions = () => {
   return (
     <div className="bg-stone-100/20 p-5 lg:mx-[30%] rounded-lg mt-5 text-xs">
       <h5 className="font-bold italic">How this was coded</h5>
@@ -13,4 +13,4 @@ const CodeHow = () => {
   );
 };
 
-export default CodeHow;
+export default QuizInstructions;

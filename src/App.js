@@ -1,6 +1,6 @@
 // MAIN BRANCH
 
-import CodeHow from "./components/CodeHow";
+import QuizInstructions from "./components/QuizInstructions";
 import HeaderTitle from "./components/HeaderTitle";
 import QuizApp from "./components/QuizApp";
 
@@ -12,7 +12,7 @@ function App() {
       <div className="p-5">
         <HeaderTitle />
         <QuizApp />
-        <CodeHow />
+        <QuizInstructions />
       </div>
     </div>
   );
